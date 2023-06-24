@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  text-align: center;
+  position: relative;
+}
+
+*{
+  font-family: 'Gowun Dodum',serif;
+  font-size: 25px;
+  color: white;
+}
+
+form {
+	margin-top: 200px;
+}
+
+.submit {
+	 border: 0;
+  outline: none;
+  margin: 30px
+  font-size = 15px;
+  background: white;
+  color: black;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+input {
+	color: black;
+	text-align: center;
+}
+.submit:hover {
+      color: white;
+  background: pink;
+  }
+  
+.bttn {
+	color: black;
+	width: 500px;
+}
+
+.bttn:hover {
+      color: block;
+  background: pink;
+  }
